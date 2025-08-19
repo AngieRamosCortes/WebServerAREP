@@ -47,8 +47,9 @@ Abre en tu navegador:
 ```
 http://localhost:9090
 ```
-![alt text](image-4.png)
-![alt text](image-3.png)
+<img width="1919" height="939" alt="image" src="https://github.com/user-attachments/assets/48706c2c-f0f6-4c03-9823-625614b22453" />
+<img width="1919" height="944" alt="image" src="https://github.com/user-attachments/assets/13ed3775-13d4-44d5-a4cd-d0b08b9018f4" />
+
 Allí encontrarás una página con pruebas para:
 
 - **GET** → `/hello?nombre=TuNombre`
@@ -73,7 +74,8 @@ Se validan respuestas del servidor ante peticiones HTTP (por ejemplo, que `/hell
 ```bash
 GET http://localhost:9090/hello?name=Juan
 ```
-![alt text](image-1.png)
+<img width="1349" height="677" alt="image" src="https://github.com/user-attachments/assets/72314940-beaf-4b4c-b1e0-fe1607902b65" />
+
 
 ### Pruebas de estilo de codificación
 
