@@ -29,7 +29,6 @@ public class AppTest {
         });
         serverThread.start();
 
-        // Esperar un poco a que el servidor arranque
         try {
             Thread.sleep(2000);
         } catch (InterruptedException ignored) {}
@@ -37,7 +36,7 @@ public class AppTest {
 
     @AfterClass
     public static void stopServer() {
-        // Opcional: implementar un endpoint de shutdown en MainServer si quieres terminarlo
+        
         serverThread.interrupt();
     }
 
