@@ -56,6 +56,15 @@ Allí encontrarás una página con pruebas para:
 - **POST** → `/hellopost?nombre=TuNombre`
 - **API Random** → `/api/random`
 
+
+## Running the tests
+
+El proyecto usa **JUnit 4.13.2**. Para ejecutar los tests:
+
+```bash
+mvn test
+```
+
 ### Desglosar en pruebas de extremo a extremo
 
 Se validan respuestas del servidor ante peticiones HTTP (por ejemplo, que `/hello` y `/hellopost` retornen la respuesta esperada) y que los recursos estáticos se sirvan correctamente.
