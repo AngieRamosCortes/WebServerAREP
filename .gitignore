@@ -1,0 +1,28 @@
+# Compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# IDEs y editores
+# VS Code
+.vscode/
+
+# Sistema operativo
+Thumbs.db
+
+# Carpetas específicas de este proyecto
+.qodo/
